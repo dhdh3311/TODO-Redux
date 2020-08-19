@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Counter View
 const Counter = ({
   number,
   onIncrement,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { List, Map } from 'immutable';
 
+// TODO List View
 const TodoItem = ({ id, text, checked, onToggle, onRemove }) => (
   <li 
     style={{
