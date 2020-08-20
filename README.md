@@ -1,6 +1,7 @@
 # begin-redux
 
 리덕스 시작하기 튜토리얼 전용 템플릿
+https://velopert.com/3533
 
 이 프로젝트는 총 6가지의 Branch 로 나뉘어져있습니다:
 
