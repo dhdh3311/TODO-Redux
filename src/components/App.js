@@ -1,20 +1,21 @@
-import { React, Component } from "react";
-import { Menu, Link, Button } from "react";
-
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Counter from "./Counter";
 import Todos from "./Todos";
 import Navbar from "./navbar";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-
-        <Route exact path="/" component={Counter} />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <Navbar />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Counter} /> {/* </Route> */}
+          <Route path="/todos" component={Todos} /> {/* </Route> */}
+        </Switch>
+      </BrowserRouter>
+    </div>
+  );
+};
 
 export default App;
