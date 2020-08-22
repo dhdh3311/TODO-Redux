@@ -4,8 +4,7 @@ import React from 'react';
 const Counter = ({
   number,
   onIncrement,
-  onDecrement
-}) => {
+  onDecrement }) => {
   return (
     <div>
       <h1>{number}</h1>
