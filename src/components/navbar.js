@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div>
@@ -13,6 +14,11 @@ const Navbar = () => {
           <li>
             <Link exact to="/todos">
               todos
+            </Link>
+          </li>
+          <li>
+            <Link exact to="/shopping">
+              shopping todos
             </Link>
           </li>
         </ul>
