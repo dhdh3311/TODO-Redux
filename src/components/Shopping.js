@@ -1,5 +1,5 @@
 import React from 'react';
-import 'ShoppingTodos' from './ShppingTodos.js';
+import ShoppingTodos from 'ShoppingTodos';
 
 list = ["ipad", "macbook", "airpod"];
 
