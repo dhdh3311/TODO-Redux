@@ -1,29 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <Router>
-        <ul>
-          <li>
-            <Link exact to="/count">
-              카운트
-            </Link>
-          </li>
-          <li>
-            <Link exact to="/todos">
-              todos
-            </Link>
-          </li>
-          <li>
-            <Link exact to="/shopping">
-              shopping todos
-            </Link>
-          </li>
-        </ul>
-      </Router>
-    </div>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">Counter</Link>
+        </li>
+        <li>
+          <Link to="/todos">Todos</Link>
+        </li>
+        <li>
+          <Link to="/shoppd">Shopping Todos</Link>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

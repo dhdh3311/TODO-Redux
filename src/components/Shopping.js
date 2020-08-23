@@ -1,11 +1,11 @@
 import React from 'react';
-import ShoppingTodos from 'ShoppingTodos';
+import ShoppingTodos from './ShoppingTodos';
 
-list = ["ipad", "macbook", "airpod"];
+const todos = ["ipad", "macbook", "airpod"];
 
 const Shopping = () => {
 	return <div>
-		<ShoppingTodos items={list} />
+		<ShoppingTodos items={todos} />
 
 	</div>
 }
